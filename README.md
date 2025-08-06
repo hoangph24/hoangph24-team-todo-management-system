@@ -105,6 +105,20 @@ npm run dev
 - Intelligent recommendations
 - Conflict detection and resolution
 
+> **⚠️ AI Features Status Notice**
+> 
+> **🚀 Backend Implementation Complete**: Two advanced AI features have been successfully implemented in the backend API:
+> - **Smart Due Date Suggestions**: AI-powered deadline recommendations based on task complexity and team workload
+> - **Task Complexity Analysis**: Intelligent analysis of task complexity with estimated hours and risk assessment
+> 
+> **🔧 Frontend Integration Pending**: To ensure complete quality and user experience, these AI features are **not yet implemented in the frontend**. The backend APIs are fully functional and ready for frontend integration.
+> 
+> **📋 Available AI Endpoints**:
+> - `POST /ai/suggest-due-date` - Get AI due date suggestions
+> - `POST /ai/analyze-task` - Analyze task complexity and planning recommendations
+> 
+> For detailed AI feature documentation, see [Backend AI Documentation](./BE/README.md#ai-feature-documentation).
+
 ### ⚡ Real-time Collaboration
 - WebSocket integration with Socket.io
 - Live todo updates across all team members

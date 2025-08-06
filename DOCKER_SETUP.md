@@ -154,7 +154,7 @@ docker-compose up --scale backend=3 -d
 
 ```bash
 # Build and start development services
-docker-compose -f docker-compose.dev.yml up --build -d
+docker-compose -f docker-compose.dev.yml up -d
 
 # View development logs
 docker-compose -f docker-compose.dev.yml logs -f
